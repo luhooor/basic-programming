@@ -1,16 +1,22 @@
 public class p7_exponentiation {
 
-    public static void main(String[] args) {
-        int bilangan = 2;
-        int pangkat = 3;
+    private static int pangkat(int a, int b) {
         int hasil = 1;
 
-        for (int i = 1; i <= pangkat; i++) {
-            hasil *= bilangan;
+        for (int i = 1; i <= b; i++) {
+            hasil *= a;
         }
 
-        System.out.println(hasil);
+        return hasil;
 
+    }
+
+    public static void main(String[] args) {
+        System.out.println(pangkat(2,3));
+        System.out.println(pangkat(5,3));
+        System.out.println(pangkat(10,2));
+        System.out.println(pangkat(2,5));
+        System.out.println(pangkat(7,3));
     }
 
 }
