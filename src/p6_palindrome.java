@@ -4,8 +4,8 @@ public class p6_palindrome {
         String kataBalik = "";
 
         for (int i = value.length() - 1; i >= 0; i--) {
-            char c = value.charAt(i);
-            kataBalik += String.valueOf(c);
+            char c = value.charAt(i); // input kebalikan per karakter dari value
+            kataBalik += String.valueOf(c); //input kata baliknya dari char c
         }
 
         return value.equals(kataBalik);
