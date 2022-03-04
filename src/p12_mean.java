@@ -1,7 +1,6 @@
 public class p12_mean {
     private static float Mean(float[] numbers) {
-        float hasil = 0;
-        float jumlah = 0;
+        float hasil = 0, jumlah = 0;
 
         for (int i = 0; i < numbers.length; i++) {
             jumlah += numbers[i];
