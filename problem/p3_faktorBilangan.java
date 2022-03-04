@@ -1,6 +1,6 @@
 public class p3_faktorBilangan {
     public static void main(String[] args) {
-        int bilangan = 20;
+        int bilangan = 6;
 
 //     Process
         for (int i = 1; i <= bilangan; i++) {
